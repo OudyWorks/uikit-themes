@@ -1,0 +1,17 @@
+{
+  "name": "@oudyworks/uikit-themes",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OudyWorks/uikit-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OudyWorks/uikit-themes/issues"
+  },
+  "homepage": "https://github.com/OudyWorks/uikit-themes#readme",
+  "dependencies": {
+    "uikit": "^3.0.0-beta.42"
+  }
+}
