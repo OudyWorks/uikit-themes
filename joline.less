@@ -44,8 +44,8 @@ Type: Flat
 @import "~uikit/src/less/uikit.less";
 
 // UIkit Theme
-@import "./master/_import.less";
-@import "./joline/_import.less";
+@import "master/_import.less";
+@import "joline/_import.less";
 
 // Theme
 @import "theme.less";
@@ -60,6 +60,6 @@ Type: Flat
 .tm-headerbar-top + .uk-navbar-container:not(.uk-navbar-sticky) .uk-navbar-nav > li > a::before when (@navbar-nav-item-line-mode) and (@navbar-nav-item-line-position-mode = top) { top: -@theme-headerbar-top-border-width; }
 
 // Style
-@import (optional) "./joline/styles/@{internal-style}.less";
+@import (optional) "joline/styles/@{internal-style}.less";
 
 @internal-style: ;
